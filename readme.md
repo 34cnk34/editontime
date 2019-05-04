@@ -69,4 +69,4 @@ http://localhost:8000
 
 To create compressed, production-ready assets, run `yarn run build`.
 
-#Haluk was here
+#Haluk was here. Not anymore
