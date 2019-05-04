@@ -1,0 +1,125 @@
+.dropdown.menu > li > a {
+    background: transparent! important;
+}
+.tabs{
+    border:none! important;
+}
+.top-nav, .top-nav ul {
+    background-color: transparent;
+}
+.top-nav {
+    padding: 1rem;
+}
+.align-justify {
+    -webkit-box-pack: justify! important;
+    -ms-flex-pack: justify! important;
+    justify-content: space-between! important;
+}
+
+.marketing-site-three-up {
+  text-align: center;
+  padding: 4rem 0 0;
+}
+
+.marketing-site-three-up .row {
+  max-width: 900px;
+}
+
+.marketing-site-three-up .columns {
+  margin-bottom: 0rem;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-three-up .columns {
+    margin-bottom: 0;
+  }
+}
+
+.marketing-site-three-up .fa {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: #1779ba;
+}
+
+.marketing-site-three-up-headline {
+  margin-bottom: 2rem;
+  font-size: 24px;
+}
+
+.icon-sm {
+    font-size: 3rem;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 100;
+    padding: 1rem;
+}
+
+.callout.alert{
+    background: #1C1644;
+}
+
+.enterprise {
+    height: auto! important;
+}
+
+.enterprise-button-mobile{
+    width: 80%! important;
+}
+
+
+@media screen and (max-width: 39.9375em) {
+    .blurb,
+    .blurb-hero,
+    .blurb-left,
+    .blurb-right {
+        padding: 1rem 0 0rem;
+    }
+    
+    h2.blurb-title{
+        padding-top: 2rem;
+    }
+}
+
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a {
+    
+    color: white;
+}
+
+.is-dropdown-submenu {
+    border:none! important;
+    background:#1d1644eb! important;
+}
+
+.txt-rotate{
+    color:#FF22B4;
+    border-bottom: 1px solid;
+}
+
+
+.spin-figure{
+    max-width: 100%! important;
+    max-height: 100%! important;
+}
+
+.sirv-spin-container.desktop .sirv-spin-button.fullscreen{
+display:none! important;}
+
+.twentytwenty-container img{
+    
+        transition: none !important;
+    
+}
+
+
+
+ul.mobile-ofc{
+    .close-button {
+        top:-0.5rem !important;
+        line-height: 1 !important;
+    }
+}
+
+.marketing-section .marketing-section-sirv img {
+    width: 1px;
+    color: white;
+}
