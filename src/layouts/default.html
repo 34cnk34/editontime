@@ -84,21 +84,20 @@
     <!-- typewriter -->
     <script>
         new TypeIt('#hero', {
-            speed: 50,
-            startDelay: 900,
-            loop: true
+            speed: 125,
+            startDelay: 100,
+            loopDelay: 1500,
+            loop: true,
+            lifeLike: true,
+            html: true
         })
-            .type('clear backgrounds')
-            .pause(750)
-            .options({ speed: 100, deleteSpeed: 75 })
-            .delete(14)
-            .pause(1000)
-            .type('correct colors')
-            .pause(1000)
-            .options({ speed: 100, deleteSpeed: 75 })
-            .delete(14)
-            .pause(750)
-            .type('retouch, clip paths, add shadows.')
+            .type('clear backgrounds.')
+            .pause(2500)
+            .delete()
+            .type('correct colors.')
+            .pause(2500)
+            .delete()
+            .type('retouch, clip paths, and add shadows.')
             .pause(1000)
             .go();
     </script>
