@@ -8,8 +8,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
-    <link rel="icon" href="../assets/img/favicon.png" type="image/x-icon"/>
-    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon"/>
+    <link rel="icon" href="../assets/img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="../assets/img/logo/favicon.png">
     <link rel="stylesheet prefetch" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
@@ -17,17 +17,18 @@
     <title>{{page-title}}</title>
     <meta name="description" content="{{page-description}}">
     <meta name="keywords" content="{{page-keywords}}">
-
+    
     <!-- Sirv JS -->
     <script src="https://scripts.sirv.com/sirv.js"></script>
     <!-- Scroll Reveal JS -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <!-- Cookie Consent -->
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
     <!-- Cookie Js -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
     <script>
-        window.addEventListener("load", function() {
+        window.addEventListener("load", function () {
             window.cookieconsent.initialise({
                 "palette": {
                     "popup": {
@@ -51,7 +52,7 @@
 </head>
 
 <body>
-    
+
     <!-- Off Canvas Menu -->
     <div class="off-canvas position-right" id="offCanvas" data-off-canvas>
         {{> off-canvas-menu}}
@@ -59,7 +60,9 @@
 
     <div class="off-canvas-content" data-off-canvas-content>
 
-        {{> info-callout}} {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}} {{> body}} {{> newsletter}} {{> footer}}
+        {{> info-callout}}
+        {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
+        {{> body}} {{> newsletter}} {{> footer}}
     </div>
 
     <!-- Foundation JS -->
@@ -80,6 +83,7 @@
 
     <!-- typewriter -->
     <script>
+        
         var TxtRotate = function(el, toRotate, period) {
             this.toRotate = toRotate;
             this.el = el;
@@ -138,26 +142,31 @@
             css.innerHTML = ".txt-rotate > .wrap { border-right: 1px solid #ffffff }";
             document.body.appendChild(css);
         };
+    
     </script>
 
+
+    
+
     <!-- twentytwenty -->
-    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
     <script src="{{root}}assets/js/jquery.event.move.js" type="text/javascript"></script>
     <script src="{{root}}assets/js/jquery.twentytwenty.js" type="text/javascript"></script>
     <script>
-        $(function() {
+        $(function () {
             $("#container1").twentytwenty();
         });
     </script>
     <script>
-        $(window).on('load', function() {
+        $(window).on('load', function () {
             $("#container1").twentytwenty();
         });
     </script>
-   
 
-    
-<div id="app"></div>
+
+
+    <div id="app"></div>
 
 </body>
 
